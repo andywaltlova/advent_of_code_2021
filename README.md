@@ -4,6 +4,8 @@
 
 After sucessfully finishing last year tasks in Python I decited that this year I want to really chalenge myself - so I chose for me completely unknown programming language - GO. Hopefully it will be fun!
 
+Input data are downloaded via python module [`aocd`](https://github.com/wimglenn/advent-of-code-data)
+
 ## Structure of repository:
 TODO
 
