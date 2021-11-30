@@ -8,6 +8,20 @@ Input data are downloaded via python module [`aocd`](https://github.com/wimglenn
 
 ## Structure of repository:
 
+```bash
+├── daily_tasks # AoC tasks
+│   ├── 01.go
+│   ├── data # daily inputs
+│   │   └── example_input.txt
+│   └── utils.go
+├── hello
+│   ├── go.mod
+│   └── hello.go
+└── README.md
+```
+
+## Task progress:
+
 - Day 01 ❌
 - Day 02 ❌
 - Day 03 ❌
