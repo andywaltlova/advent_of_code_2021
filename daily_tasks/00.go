@@ -8,6 +8,6 @@ import (
 )
 
 func main() {
-	nums := GetNumberInput("data/example_input.txt")
+	nums := getNumberInput("data/example_input.txt")
 	fmt.Println(nums)
 }

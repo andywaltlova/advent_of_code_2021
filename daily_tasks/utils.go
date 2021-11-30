@@ -7,16 +7,16 @@ import (
 	"strconv"
 )
 
-func GetNumberInput(filename string) []int {
+func getNumberInput(filename string) []int {
 	var result []int
-	for _, s := range GetInputLines(filename) {
+	for _, s := range getInputLines(filename) {
 		num, _ := strconv.Atoi(s)
 		result = append(result, num)
 	}
 	return result
 }
 
-func GetInputLines(filename string) []string {
+func getInputLines(filename string) []string {
 	file, err := os.Open(filename)
 
 	if err != nil {
