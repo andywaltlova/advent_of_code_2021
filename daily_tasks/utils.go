@@ -7,8 +7,16 @@ import (
 	"strconv"
 )
 
-func GetInput(filename string) []int {
+func GetNumberInput(filename string) []int {
+	var result []int
+	for _, s := range GetInputLines(filename) {
+		num, _ := strconv.Atoi(s)
+		result = append(result, num)
+	}
+	return result
+}
 
+func GetInputLines(filename string) []string {
 	file, err := os.Open(filename)
 
 	if err != nil {
@@ -18,10 +26,9 @@ func GetInput(filename string) []int {
 	scanner := bufio.NewScanner(file)
 	scanner.Split(bufio.ScanLines)
 
-	var result []int
+	var result []string
 	for scanner.Scan() {
-		num, _ := strconv.Atoi(scanner.Text())
-		result = append(result, num)
+		result = append(result, scanner.Text())
 	}
 
 	file.Close()
