@@ -23,7 +23,7 @@ Input data are downloaded via python module [`aocd`](https://github.com/wimglenn
 ## Task progress:
 
 - Day 01 :heavy_check_mark:
-- Day 02 ❌
+- Day 02 :heavy_check_mark:
 - Day 03 ❌
 - Day 04 ❌
 - Day 05 ❌
