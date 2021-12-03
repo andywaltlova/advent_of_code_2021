@@ -14,11 +14,15 @@ Input data are downloaded via python module [`aocd`](https://github.com/wimglenn
 │   ├── 01.go
 │   ├── 02.go
 │   ├── 03.go
+│   ├── ...
+│   ├── 25.go
 │   ├── data # daily inputs
+│   │   ├── 00.txt
 │   │   ├── 01.txt
 │   │   ├── 02.txt
 │   │   ├── 03.txt
-│   │   └── example_input.txt
+│   │   ├── ...
+│   │   └── 25.txt
 │   ├── go.mod
 │   └── utils.go
 ├── hello
