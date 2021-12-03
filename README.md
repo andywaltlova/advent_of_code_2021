@@ -10,9 +10,16 @@ Input data are downloaded via python module [`aocd`](https://github.com/wimglenn
 
 ```bash
 ├── daily_tasks # AoC tasks
+│   ├── 00.go
 │   ├── 01.go
+│   ├── 02.go
+│   ├── 03.go
 │   ├── data # daily inputs
+│   │   ├── 01.txt
+│   │   ├── 02.txt
+│   │   ├── 03.txt
 │   │   └── example_input.txt
+│   ├── go.mod
 │   └── utils.go
 ├── hello
 │   ├── go.mod
