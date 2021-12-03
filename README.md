@@ -24,7 +24,7 @@ Input data are downloaded via python module [`aocd`](https://github.com/wimglenn
 
 - Day 01 :heavy_check_mark:
 - Day 02 :heavy_check_mark:
-- Day 03 ❌
+- Day 03 :heavy_check_mark:
 - Day 04 ❌
 - Day 05 ❌
 - Day 06 ❌
