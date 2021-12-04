@@ -124,7 +124,7 @@ func part2(lines []string) int {
 				not_finished_boards = append(not_finished_boards, board)
 			}
 		}
-		// Keep iterating only throug unfinished bingo boards
+		// Keep iterating only through unfinished bingo boards
 		boards = not_finished_boards
 	}
 	return last_winner_board.sumUnmarked(last_drawn_num)
