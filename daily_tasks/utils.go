@@ -7,6 +7,20 @@ import (
 	"strconv"
 )
 
+func max(x, y int) int {
+	if x < y {
+		return y
+	}
+	return x
+}
+
+func min(x, y int) int {
+	if x > y {
+		return y
+	}
+	return x
+}
+
 func getNumberInput(filename string) []int {
 	var result []int
 	for _, s := range getInputLines(filename) {
