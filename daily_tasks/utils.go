@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"strconv"
+	"strings"
 )
 
 func max(x, y int) int {
@@ -46,5 +47,16 @@ func getInputLines(filename string) []string {
 	}
 
 	file.Close()
+	return result
+}
+
+func getNumbersOnLine(filename string) []int {
+	string_nums := strings.Split(getInputLines(filename)[0], ",")
+
+	var result []int
+	for _, str_num := range string_nums {
+		num, _ := strconv.Atoi(str_num)
+		result = append(result, num)
+	}
 	return result
 }
