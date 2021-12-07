@@ -15,11 +15,46 @@ func max(x, y int) int {
 	return x
 }
 
+func arrayMax(s []int) int {
+	m := s[0]
+	for _, v := range s {
+		if v > m {
+			m = v
+		}
+	}
+	return m
+}
+
 func min(x, y int) int {
 	if x > y {
 		return y
 	}
 	return x
+}
+
+func arrayMin(s []int) int {
+	m := s[0]
+	for _, v := range s {
+		if v < m {
+			m = v
+		}
+	}
+	return m
+}
+
+func abs(n int) int {
+	if n < 0 {
+		return -n
+	}
+	return n
+}
+
+func makeRange(min, max int) []int {
+	a := make([]int, max-min+1)
+	for i := range a {
+		a[i] = min + i
+	}
+	return a
 }
 
 func getNumberInput(filename string) []int {
