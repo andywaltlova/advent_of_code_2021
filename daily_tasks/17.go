@@ -1,7 +1,7 @@
 package main
 
 // Every solution is run along with utils.go
-// e.g `go run 02.go utils.go`
+// e.g `go run 17.go utils.go`
 
 import (
 	"fmt"
